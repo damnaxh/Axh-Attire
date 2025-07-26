@@ -1,0 +1,42 @@
+<!-- product.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AXH | Products</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">AXH Attire</div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="product.html">Products</a></li>
+        <li><a href="cart.html">Cart</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="product-page">
+    <div class="product-container">
+      <div class="product-card">
+        <img src="Ben10tee.jpg" alt="LIMITED DROP TEE">
+        <h3>LIMITED DROP TEE</h3>
+        <p class="price">₹999</p>
+        <button onclick="addToCart('LIMITED DROP TEE', 999, 'img/Ben10tee.jpg')">Add to Cart</button>
+      </div>
+      
+      <div class="product-card">
+        <img src="Ben10tee.jpg" alt="ANOTHER TEE">
+        <h3>ANOTHER TEE</h3>
+        <p class="price">₹799</p>
+        <button onclick="addToCart('ANOTHER TEE', 799, 'img/Ben10tee.jpg')">Add to Cart</button>
+      </div>
+    </div>
+  </main>
+
+  <script src="cart.js"></script>
+</body>
+</html>
